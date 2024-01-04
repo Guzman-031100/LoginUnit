@@ -1,6 +1,9 @@
 public class LoginUnit {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        IDandPasswords idandPasswords = new IDandPasswords();
+
+        //LoginPage loginPage = new LoginPage(idandPasswords.getLoginInfo());
     }
 }
