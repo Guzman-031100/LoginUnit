@@ -4,6 +4,6 @@ public class LoginUnit {
 
         IDandPasswords idandPasswords = new IDandPasswords();
 
-        //LoginPage loginPage = new LoginPage(idandPasswords.getLoginInfo());
+        LoginPage loginPage = new LoginPage(idandPasswords.getLoginInfo());
     }
 }
